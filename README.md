@@ -1,10 +1,35 @@
+# Anonymous Message Board
+A website that lets you message with everyone else on the website anonymously. 
+**Link:** https://student7898.github.io/anonymous-message-board/
 
-## Testing
+!["Screenshot1"](./1.png)
+!["Screenshot1"](./2.png)
+!["Screenshot1"](./3.png)
+
+### Main Features
+ - Sending messages anonymously
+ - Access to everyone on the website
+ - Easy configurability to allow for more messages of larger length
+ - Messages persist after leaving the website (up to a maximum of 50, which can be changed)
+
+### Purpose
+ - Great for practicing how to connect a backend and frontend
+
+### Dependencies
+ - Python 3.13.1
+    - Flask
+    - flask-cors
+
+### Testing
+**Frontend:** 
+1. Download a copy of the files and run index.html locally on your machine.
+
 **Backend:** 
-1. Run the app.py file
-2. Replace API_URL to "http://localhost:5000/api/messages" in script.js
+1. Run the command `pip install -r requirements.txt` in the terminal assuming you have python installed (Python 3.13.1)
+2. Run the app.py file by using the command `python app.py` in the terminal
+3. Replace API_URL to "http://localhost:5000/api/messages" in script.js
 
-## References
+# References
 
 ### API
  - https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto
