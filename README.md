@@ -2,6 +2,8 @@
 A website that lets you message with everyone else on the website anonymously. 
 **Link:** https://student7898.github.io/anonymous-message-board/
 
+The website messages will include answers that are missing due to no video.
+
 !["Screenshot1"](./1.png)
 !["Screenshot1"](./2.png)
 !["Screenshot1"](./3.png)
@@ -21,7 +23,7 @@ A website that lets you message with everyone else on the website anonymously.
     - flask-cors
 
 ### Testing
-**Note**
+**Note:**
 Each separate part of the project, like frontend and backend, is separated into different branches. 
 
 **Frontend:** 
