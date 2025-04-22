@@ -21,6 +21,9 @@ A website that lets you message with everyone else on the website anonymously.
     - flask-cors
 
 ### Testing
+**Note**
+Each separate part of the project, like frontend and backend, is separated into different branches. 
+
 **Frontend:** 
 1. Download a copy of the files and run index.html locally on your machine.
 
