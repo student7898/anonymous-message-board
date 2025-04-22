@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Message Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Anonymous Chat Log</h1>
+            <p>Sending messages also loads messages but requires a message to be sent. Loading messages updates the chat log to include the newest messages without sending a new message.</p>
+        </header>
+        <div id="chat-log"></div>
+        <div id="input-bar">
+            <input type="text" id="message-input" placeholder="Type your message..." maxlength="100" required autocomplete="off"/>
+            <button type="button" id="send-button" onclick="sendMessage()">Send</button>
+            <button type="button" id="load-button" onclick="loadMessages()">Load</button>
+        </div>
+    </div>
+</body>
+</html>
