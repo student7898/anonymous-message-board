@@ -1,6 +1,8 @@
 
 ## Testing
-**Backend:** Replace API_URL to "http://localhost:5000/api/messages" in script.js
+**Backend:** 
+1. Run the app.py file
+2. Replace API_URL to "http://localhost:5000/api/messages" in script.js
 
 ## References
 
